@@ -68,3 +68,8 @@ document.getElementById('rectangle-area-calculate').addEventListener('click', fu
   getValueFromInputField('rectangle-base', 'rectangle-height', 'rectangle-area-display', 'rectangle-aside-area-display', 'Rectangle', 'rectangle-area-calculate');
 })
 
+
+// Parallelogram Area calculation
+document.getElementById('parallelogram-area-calculate').addEventListener('click', function() {
+  getValueFromInputField('parallelogram-base', 'parallelogram-height', 'parallelogram-area-display', 'parallelogram-aside-area-display', 'Parallelogram', 'parallelogram-area-calculate');
+})
