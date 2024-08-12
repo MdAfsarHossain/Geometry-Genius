@@ -56,3 +56,9 @@ function areaCalculate(x, y, name) {
   }
 }
 
+
+// Triangle Area calculation
+document.getElementById('triangle-area-calculate').addEventListener('click', function() {
+  getValueFromInputField('triangle-base', 'triangle-height', 'triangle-area-display', 'triangle-aside-area-display', 'Triangle', 'triangle-area-calculate');
+})
+
