@@ -45,3 +45,14 @@ function getValueFromInputField(baseField, heightField, displayField, asideDipla
     const asideDiplay = document.getElementById(asideDiplayField);
     asideDiplay.innerText = area;
 }
+
+
+// Area Calculations
+function areaCalculate(x, y, name) {
+  if(name === 'Triangle') {
+      return 0.5 * x * y;
+  } else if(name === 'Rectangle' || name === 'Parallelogram') {
+      return x * y;
+  }
+}
+
