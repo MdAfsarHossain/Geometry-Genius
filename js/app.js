@@ -62,3 +62,9 @@ document.getElementById('triangle-area-calculate').addEventListener('click', fun
   getValueFromInputField('triangle-base', 'triangle-height', 'triangle-area-display', 'triangle-aside-area-display', 'Triangle', 'triangle-area-calculate');
 })
 
+
+// Rectangle Area calculation
+document.getElementById('rectangle-area-calculate').addEventListener('click', function() {
+  getValueFromInputField('rectangle-base', 'rectangle-height', 'rectangle-area-display', 'rectangle-aside-area-display', 'Rectangle', 'rectangle-area-calculate');
+})
+
